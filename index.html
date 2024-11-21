@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        .profile-pic {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        .divider {
+            border-top: 2px solid #ddd;
+            margin: 20px 0;
+        }
+        nav a {
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+        <a class="navbar-brand" href="#">My Resume</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item"><a class="nav-link" href="#about">About Me</a></li>
+                <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
+                <li class="nav-item"><a class="nav-link" href="#employment">Employment</a></li>
+                <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+                <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="text-center py-5 bg-primary text-white">
+        <img src="Frame.png" alt="Profile Picture" class="profile-pic">
+        <h1>กัมปนาท สุนทรธรรม</h1>
+        <p><em>วิศวะคอมพิวเตอร์และปัญญาประดิษญ์</em></p>
+        <p>วิศวะกรรมศาสตร์และเทคโนโลยี, <a href="http://pim.ac.th" target="_blank" class="text-white">PIM</a></p>
+    </header>
+
+    <!-- About Me Section -->
+    <section id="about" class="container">
+        <h2>About Me</h2>
+        <hr class="divider">
+        <p>"สวัสดีครับ! ผมเป็นนักศึกษาที่มีความมุ่งมั่นและกระตือรือร้นที่จะพัฒนาทักษะในด้านการพัฒนาเว็บและการออกแบบ UX/UI ผมสนใจเทคโนโลยีที่สามารถสร้างนวัตกรรมใหม่ ๆ เพื่อแก้ไขปัญหาในชีวิตประจำวัน เป้าหมายของผมคือการเป็นนักพัฒนาซอฟต์แวร์ที่สามารถสร้างระบบหรือแพลตฟอร์มที่ช่วยให้ผู้ใช้งานได้รับประสบการณ์ที่ดีที่สุด และผมมุ่งมั่นที่จะเรียนรู้และพัฒนาตนเองอย่างต่อเนื่องในสายงานเทคโนโลยี"</p>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="bg-light">
+        <div class="container">
+            <h2>Education</h2>
+            <hr class="divider">
+            <p><strong>ระดับการศึกษา</strong> - Panyapiwat Institute of Management</p>
+            <p>ปีการศึกษาที่คาดว่าจะจบ: ธันวาคม 2569</p>
+        </div>
+    </section>
+
+    <!-- Employment History Section -->
+    <section id="employment" class="container">
+        <h2>Employment History</h2>
+        <hr class="divider">
+        <p>
+            "ผมเคยเข้าร่วมโครงการ Bootcamp ด้านการพัฒนาเว็บซึ่งเป็นหลักสูตรเข้มข้นที่ครอบคลุมการเขียนโค้ดด้วย HTML, CSS, JavaScript และการใช้ Framework อย่าง Bootstrap ในการสร้างเว็บไซต์ที่ตอบโจทย์การใช้งานจริง นอกจากนี้ยังเคยทำโปรเจคในชั้นเรียนที่เกี่ยวกับการออกแบบเว็บไซต์แบบ Responsive ซึ่งช่วยเสริมสร้างทักษะในการทำงานเป็นทีมและการแก้ปัญหา</p>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="bg-light">
+        <div class="container">
+            <h2>Skills</h2>
+            <hr class="divider">
+            <ul>
+                <li>HTML, CSS, JavaScript</li>
+                <li>Bootstrap Framework</li>
+                <li>Responsive Web Design</li>
+                <li>การออกแบบ UI/UX</li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container">
+        <h2>Contact</h2>
+        <hr class="divider">
+        <ol>
+            <li>Email: <img src="" alt="" width="15"> 6652300168@stu.pim.ac.th</li>
+            <li>Phone: 123-456-7890</li>
+            <li>Address: Bangkok, Thailand</li>
+        </ol>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-center py-3 bg-dark text-white">
+        &copy; 2024 Gampanut Soontontam
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
